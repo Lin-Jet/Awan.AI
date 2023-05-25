@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -36,3 +37,115 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  /* border: red solid 3px; */
+  padding: 0rem 1.5rem 0rem 1.5rem;
+  margin-top: -1rem;
+
+}
+
+.nav-items{
+  display: flex;
+}
+
+.nav-items > li{
+  padding: 0rem 1rem 0rem 1rem;
+  list-style: none;
+  transition-duration: 0.4s;
+}
+
+.nav-items > li:hover{
+  cursor: pointer;
+  color: hotpink;
+  transition-duration: 0.4s;
+}
+
+
+.main{
+  /* border: red solid 3px; */
+  height: 100vh;
+}
+
+.main-button{
+  border: 0.5rem white solid;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  font-size: 3em;
+  color: white;
+  padding: 3rem 10rem 3rem 10rem;
+  margin: 10rem 0rem 0rem 0rem;
+  transition-duration: 0.4s;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.main-button:hover{
+  filter: hue-rotate(360deg) saturate(200%) blur(100px);
+  transition-duration: 3s;
+  cursor: pointer;
+}
+
+.star {
+  animation: dance 0.5s linear infinite;
+  color: red;
+}
+
+@keyframes dance {
+  0% {
+    transform: scale(100%, 100%);
+  }
+  25% {
+    transform: scale(100%, 175%);
+  }
+  50% {
+    transform: scale(175%, 175%);
+  }
+  75% {
+    transform: scale(175%, 100%);
+  }
+  100% {
+    transform: scale(100%, 100%);
+  }
+}
+
+
+.hover-star{
+  color: blue;
+  border: red solid 3px;
+  width:fit-content;
+  margin: auto;
+}
+
+.hover-star:hover{
+  color: pink;
+  animation: dance 0.5s linear infinite;
+}
+
+
+
+
+.grid-element{
+  display:inline-box;
+  color: white;
+  filter: opacity(30%);
+  font-size: 2em;
+}
+.grid-element:hover{
+  display: inline-flex;
+  filter: opacity(100%);
+  color: blueviolet;
+  animation: dance 0.4s linear infinite;
+}
+
+
+

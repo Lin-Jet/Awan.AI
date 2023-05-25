@@ -7,7 +7,7 @@ function Main (){
         <div className="main">
 
             <GridBack className="star-background"/>
-            <button className="main-button">Awan</button>
+            <button className="main-button">Awan.AI</button>
         </div>
     )
 }
