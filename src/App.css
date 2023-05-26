@@ -149,3 +149,19 @@
 
 
 
+
+
+/*MOBILE VIEWPORTS*/
+@media screen and (min-width: 300px) and (max-width: 880px) {
+  .main-button{
+    /* max-width: 8rem; */
+    padding: 0.3rem 4rem 0.3rem 4rem;
+  }
+  
+}
+
+
+
+
+
+
