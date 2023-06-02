@@ -7,10 +7,10 @@ function Nav (){
             
             <ul className="nav-items">
                 <li>
-                    <p>About Us</p>
+                    <a href="">About Us</a>
                 </li>
                 <li>
-                    <p>Contact Us</p>
+                    <a href="">Contact Us</a>
                 </li>
             </ul>
         </div>

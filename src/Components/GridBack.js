@@ -19,7 +19,7 @@ const GridBack = () => {
 
   const calculateGridSize = () => {
     const cellWidth = 33; // Adjust this value based on your desired cell width
-    const cellHeight = 33; // Adjust this value based on your desired cell height
+    const cellHeight = 40; // Adjust this value based on your desired cell height
 
     const columns = Math.floor(dimensions.width / cellWidth);
     const rows = Math.floor(dimensions.height / cellHeight);
