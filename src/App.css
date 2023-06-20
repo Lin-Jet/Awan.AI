@@ -49,7 +49,11 @@
   /* border: red solid 3px; */
   padding: 0rem 1.5rem 0rem 1.5rem;
   margin-top: -1rem;
+  transition-duration: 0.4s;
 
+  background: linear-gradient(45deg, red, 10%, #b693f3, #58a9ec,   #a97ef3, rgb(63, 232, 63));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-items{
@@ -59,12 +63,23 @@
 .nav-items > li{
   padding: 0rem 1rem 0rem 1rem;
   list-style: none;
+  transition-property: all;
   transition-duration: 0.4s;
 }
 
-.nav-items > li:hover{
+/* .nav-items > li:hover{
   cursor: pointer;
-  color: hotpink;
+  -webkit-text-fill-color: hotpink;
+  transition-duration: 0.4s;
+
+} */
+
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+  -webkit-text-fill-color: hotpink;
   transition-duration: 0.4s;
 }
 
@@ -142,11 +157,17 @@
 }
 .grid-element:hover{
   display: inline-flex;
-  filter: opacity(100%);
-  color: blueviolet;
+  filter: opacity(100%) saturate(200%);
+  background: linear-gradient(45deg, rgb(140, 239, 140), #58a9ec,   #5d00fe );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   animation: dance 0.4s linear infinite;
 }
 
+.A_three{
+  position: absolute;
+  top: 5rem;
+}
 
 
 
@@ -161,7 +182,20 @@
 }
 
 
+.about-title{
 
+  background: linear-gradient(45deg, red, 10%, #b693f3, #58a9ec,   #a97ef3, rgb(63, 232, 63));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.about-text{
+  background: linear-gradient(45deg, red, 10%, #b693f3, #58a9ec,   #a97ef3, rgb(63, 232, 63));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.A_three{
+  
+}
 
